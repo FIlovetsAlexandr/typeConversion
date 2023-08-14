@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39290D362A8A56D2005A978B /* Type Casting and Inspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39290D352A8A56D2005A978B /* Type Casting and Inspection.swift */; };
 		39FD94DF2A8A5563008392AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FD94DE2A8A5563008392AB /* AppDelegate.swift */; };
 		39FD94E12A8A5563008392AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FD94E02A8A5563008392AB /* SceneDelegate.swift */; };
 		39FD94E32A8A5563008392AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FD94E22A8A5563008392AB /* ViewController.swift */; };
 		39FD94E62A8A5563008392AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FD94E42A8A5563008392AB /* Main.storyboard */; };
 		39FD94E82A8A5566008392AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39FD94E72A8A5566008392AB /* Assets.xcassets */; };
 		39FD94EB2A8A5566008392AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FD94E92A8A5566008392AB /* LaunchScreen.storyboard */; };
-		39FD94F42A8A55E1008392AB /* Type Casting and Inspection.xcplaygroundpage in Resources */ = {isa = PBXBuildFile; fileRef = 39FD94F62A8A55E1008392AB /* Type Casting and Inspection.xcplaygroundpage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39290D352A8A56D2005A978B /* Type Casting and Inspection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Type Casting and Inspection.swift"; sourceTree = "<group>"; };
 		39FD94DB2A8A5563008392AB /* HW12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FD94DE2A8A5563008392AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39FD94E02A8A5563008392AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		39FD94E72A8A5566008392AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39FD94EA2A8A5566008392AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39FD94EC2A8A5566008392AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39FD94F52A8A55E1008392AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xcplaygroundpage; name = en; path = "en.lproj/Type Casting and Inspection.xcplaygroundpage"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 		39FD94DD2A8A5563008392AB /* HW12 */ = {
 			isa = PBXGroup;
 			children = (
-				39FD94F62A8A55E1008392AB /* Type Casting and Inspection.xcplaygroundpage */,
 				39FD94DE2A8A5563008392AB /* AppDelegate.swift */,
 				39FD94E02A8A5563008392AB /* SceneDelegate.swift */,
 				39FD94E22A8A5563008392AB /* ViewController.swift */,
+				39290D352A8A56D2005A978B /* Type Casting and Inspection.swift */,
 				39FD94E42A8A5563008392AB /* Main.storyboard */,
 				39FD94E72A8A5566008392AB /* Assets.xcassets */,
 				39FD94E92A8A5566008392AB /* LaunchScreen.storyboard */,
@@ -129,7 +129,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				39FD94EB2A8A5566008392AB /* LaunchScreen.storyboard in Resources */,
-				39FD94F42A8A55E1008392AB /* Type Casting and Inspection.xcplaygroundpage in Resources */,
 				39FD94E82A8A5566008392AB /* Assets.xcassets in Resources */,
 				39FD94E62A8A5563008392AB /* Main.storyboard in Resources */,
 			);
@@ -144,6 +143,7 @@
 			files = (
 				39FD94E32A8A5563008392AB /* ViewController.swift in Sources */,
 				39FD94DF2A8A5563008392AB /* AppDelegate.swift in Sources */,
+				39290D362A8A56D2005A978B /* Type Casting and Inspection.swift in Sources */,
 				39FD94E12A8A5563008392AB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,15 +165,6 @@
 				39FD94EA2A8A5566008392AB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		39FD94F62A8A55E1008392AB /* Type Casting and Inspection.xcplaygroundpage */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39FD94F52A8A55E1008392AB /* en */,
-			);
-			name = "Type Casting and Inspection.xcplaygroundpage";
-			path = ../../../../../../Downloads/HW.playground/Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
