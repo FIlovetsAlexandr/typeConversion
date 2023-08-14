@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39290D362A8A56D2005A978B /* Type Casting and Inspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39290D352A8A56D2005A978B /* Type Casting and Inspection.swift */; };
 		39FD94DF2A8A5563008392AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FD94DE2A8A5563008392AB /* AppDelegate.swift */; };
 		39FD94E12A8A5563008392AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FD94E02A8A5563008392AB /* SceneDelegate.swift */; };
 		39FD94E32A8A5563008392AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FD94E22A8A5563008392AB /* ViewController.swift */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		39290D352A8A56D2005A978B /* Type Casting and Inspection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Type Casting and Inspection.swift"; sourceTree = "<group>"; };
 		39FD94DB2A8A5563008392AB /* HW12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FD94DE2A8A5563008392AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39FD94E02A8A5563008392AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				39FD94DE2A8A5563008392AB /* AppDelegate.swift */,
 				39FD94E02A8A5563008392AB /* SceneDelegate.swift */,
 				39FD94E22A8A5563008392AB /* ViewController.swift */,
-				39290D352A8A56D2005A978B /* Type Casting and Inspection.swift */,
 				39FD94E42A8A5563008392AB /* Main.storyboard */,
 				39FD94E72A8A5566008392AB /* Assets.xcassets */,
 				39FD94E92A8A5566008392AB /* LaunchScreen.storyboard */,
@@ -143,7 +140,6 @@
 			files = (
 				39FD94E32A8A5563008392AB /* ViewController.swift in Sources */,
 				39FD94DF2A8A5563008392AB /* AppDelegate.swift in Sources */,
-				39290D362A8A56D2005A978B /* Type Casting and Inspection.swift in Sources */,
 				39FD94E12A8A5563008392AB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
