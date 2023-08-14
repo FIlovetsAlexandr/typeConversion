@@ -1,6 +1,6 @@
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     @IBOutlet private weak var btn: UIButton!
     @IBOutlet private weak var textView: UITextView!
     
