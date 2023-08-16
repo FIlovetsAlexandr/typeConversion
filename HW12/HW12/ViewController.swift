@@ -13,7 +13,7 @@ final class ViewController: UIViewController {
              Создайте коллекцию типа [Any], включающую несколько вещественных чисел, целых, строк и булевых значений.  Распечатайте содержимое коллекции.
              */
             let items: [Any] = [1, 2, 3, "Sanya", "IOs", 7.6, 1.5, true, false]
-            textView.text += ("\n Collection - \(items)\n ")
+            for item in items { textView.text += ("\n \(item) \n") }
             /*:
              Пройдите по всем элементам коллекции.  Для каждого целого, напечайте "Целое число " и его значение.  Повторите то же самое для вещественных чисел, строк и булевых значений.
              */
@@ -56,11 +56,7 @@ final class ViewController: UIViewController {
                 } else if let stringValue = value as? String {
                     total += 1
                 } else if let boolValue = value as? Bool {
-                    if boolValue {
-                        total += 2
-                    } else {
-                        total -= 3
-                    }
+                    boolValue ? (total += 2) : (total -= 3)
                 }
             }
             textView.text += "\n Sum = \(total)\n"
